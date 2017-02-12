@@ -7,10 +7,10 @@ img {
   display: block;
 }
 
-/*Rules for headers #1*/
+/*Rules for header type #1*/
 h1 {
   color: black;
-  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-family: sans-serif;
   height: 150px;
 }
 
