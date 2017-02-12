@@ -42,12 +42,12 @@ h2 {
 
 /*Rules for hero block*/
 .hero {
-  /*Using terminal directory commands to get one spot out of current directory in order to access image*/
+  /*Use terminal directory commands to get one spot out of current directory to access image*/
   background: url('../headShot.jpg');
-  width: auto;
-  height: auto;
-  background-size: auto;
-  /*Scale image s.t. intrinsic proportions maintained*/
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  /*cover used to cover entire space*/
   background-position: center;
-  /*Position used to center no matter what device user is on*/
+  /*position usd to center no matter what device is being used */
 }
