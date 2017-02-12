@@ -10,16 +10,30 @@ img {
 /*Rules for links*/
 a {
   color: steelblue;
-  font-size: 40px;
+  font-family:
+  font-size: 150px;
 }
 
 /*Rules for header type #1*/
 h1 {
   color: black;
   font-family: sans-serif;
-  height: 150px;
+  height: 300px;
 }
 
+h2 {
+  color: black;
+  font-family: sans-serif;
+  height: 200px;
+}
+
+h2 {
+  color: black;
+  font-family: sans-serif;
+  height: 100px;
+}
+
+/*WAIT... DO I EVEN HAVE A HEADER?*/
 /*Rules for header*/
 .header {
   background: whitesmoke;
@@ -30,9 +44,9 @@ h1 {
 .hero {
   /*Using terminal directory commands to get one spot out of current directory in order to access image*/
   background: url('../headShot.jpg');
-  width: 100%;
-  height: 400px;
-  background-size: cover;
+  width: auto;
+  height: auto;
+  background-size: auto;
   /*Scale image s.t. intrinsic proportions maintained*/
   background-position: center;
   /*Position used to center no matter what device user is on*/
