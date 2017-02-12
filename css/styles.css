@@ -1,1 +1,26 @@
 /*Used for adding styles to personal webpage.*/
+
+/*Rules for any images*/
+img {
+  max-width: 100%;
+  height: 300px;
+  display: block;
+}
+
+/*Rules for header*/
+.header {
+  background: whitesmoke;
+  color: steelblue;
+}
+
+/*Rules for hero block*/
+.hero {
+  /*Using terminal directory commands to get one spot out of current directory in order to access image*/
+  background: url('../headShot.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  /*Cover entire space*/
+  background-position: center;
+  /*Position used to center no matter what device user is on*/
+}
