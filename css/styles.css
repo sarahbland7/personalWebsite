@@ -7,6 +7,13 @@ img {
   display: block;
 }
 
+/*Rules for headers #1*/
+h1 {
+  color: black;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  height: 150px;
+}
+
 /*Rules for header*/
 .header {
   background: whitesmoke;
@@ -19,8 +26,8 @@ img {
   background: url('../headShot.jpg');
   width: 100%;
   height: 400px;
-  background-size: cover;
-  /*Cover entire space*/
+  background-size: auto;
+  /*Scale image s.t. intrinsic proportions maintained*/
   background-position: center;
   /*Position used to center no matter what device user is on*/
 }
