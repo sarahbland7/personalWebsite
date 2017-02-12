@@ -16,9 +16,8 @@ a {
 
 /*Rules for header type #1*/
 h1 {
-  color: black;
+  color: teal;
   font-family: sans-serif;
-  height: 300px;
 }
 
 h2 {
