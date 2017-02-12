@@ -7,6 +7,13 @@ img {
   display: block;
 }
 
+/*Rules for header type #1*/
+h1 {
+  color: black;
+  font-family: sans-serif;
+  height: 150px;
+}
+
 /*Rules for header*/
 .header {
   background: whitesmoke;
@@ -20,7 +27,7 @@ img {
   width: 100%;
   height: 400px;
   background-size: cover;
-  /*Cover entire space*/
+  /*Scale image s.t. intrinsic proportions maintained*/
   background-position: center;
   /*Position used to center no matter what device user is on*/
 }
