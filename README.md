@@ -1,2 +1,3 @@
 # personalWebsite
-Code for writing and maintaining a basic personal website using HTML and CSS. 
+
+Code for writing and maintaining a basic personal website (for virtual resume) using HTML and CSS. Might later include javaScript. 
